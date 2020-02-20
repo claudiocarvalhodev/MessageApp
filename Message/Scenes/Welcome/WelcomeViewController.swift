@@ -10,9 +10,21 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
     
+    // MARK: - IBOutlets
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var loginButton: RoundButton!
+    
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //configureUI()
+    }
+    
+    // MARK: - Helper Functions
+    
+    func configureUI() {
+        loginButton.applyDesignAthenticationButtons()
     }
 }
