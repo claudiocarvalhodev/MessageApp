@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9100005323FF0EEC0099AEB7 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100005223FF0EEC0099AEB7 /* UIButton+Extensions.swift */; };
+		9100005523FF13D20099AEB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100005423FF13D20099AEB7 /* LoginViewController.swift */; };
+		9100005723FF13E80099AEB7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100005623FF13E80099AEB7 /* RegisterViewController.swift */; };
+		9100005923FF13FC0099AEB7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9100005823FF13FC0099AEB7 /* ChatViewController.swift */; };
 		9151E2D823FE619200F25D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9151E2D723FE619200F25D34 /* AppDelegate.swift */; };
 		9151E2DA23FE619200F25D34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9151E2D923FE619200F25D34 /* SceneDelegate.swift */; };
 		9151E2DF23FE619200F25D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9151E2DD23FE619200F25D34 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9100005223FF0EEC0099AEB7 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		9100005423FF13D20099AEB7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9100005623FF13E80099AEB7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9100005823FF13FC0099AEB7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9151E2D423FE619200F25D34 /* Message.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Message.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9151E2D723FE619200F25D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9151E2D923FE619200F25D34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9100005123FF0EAE0099AEB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9100005223FF0EEC0099AEB7 /* UIButton+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9151E2CB23FE619200F25D34 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				9151E2EE23FE62BE00F25D34 /* Images */,
+				9100005123FF0EAE0099AEB7 /* Extensions */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,6 +146,8 @@
 		9151E2F223FE637400F25D34 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				9100005423FF13D20099AEB7 /* LoginViewController.swift */,
+				9100005623FF13E80099AEB7 /* RegisterViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -136,6 +155,7 @@
 		9151E2F323FE63B400F25D34 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				9100005823FF13FC0099AEB7 /* ChatViewController.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -227,7 +247,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9151E2F723FE649700F25D34 /* WelcomeViewController.swift in Sources */,
+				9100005323FF0EEC0099AEB7 /* UIButton+Extensions.swift in Sources */,
 				9151E2D823FE619200F25D34 /* AppDelegate.swift in Sources */,
+				9100005923FF13FC0099AEB7 /* ChatViewController.swift in Sources */,
+				9100005723FF13E80099AEB7 /* RegisterViewController.swift in Sources */,
+				9100005523FF13D20099AEB7 /* LoginViewController.swift in Sources */,
 				9151E2DA23FE619200F25D34 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
