@@ -235,7 +235,7 @@
             </objects>
             <point key="canvasLocation" x="1076.8115942028987" y="-261.16071428571428"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Title-->
         <scene sceneID="GPt-Sp-T9W">
             <objects>
                 <viewController id="PZN-oE-V1k" customClass="ChatViewController" customModule="Message" customModuleProvider="target" sceneMemberID="viewController">
@@ -301,6 +301,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bpE-dq-Mqn"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="nXp-0W-oWq" userLabel="Navigation Item"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXO-Na-Ats" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
